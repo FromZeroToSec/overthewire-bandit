@@ -13,7 +13,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 03 | [📄 Voir](./lvl-03/README.md) | ✅ |
 | Level 04 | [📄 Voir](./lvl-04/README.md) | ✅ |
 | Level 05 | [📄 Voir](./lvl-05/README.md) | ✅ |
-| Level 06 | — | ⏳ |
+| Level 06 | [📄 Voir](./lvl-06/README.md) | ✅ |
+| Level 07 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -30,6 +31,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `cd ..` | Remonte d'un niveau dans l'arborescence | ✅ |
 | `file <fichier>` | Identifie le type d'un fichier (ASCII text, data...) | ✅ |
 | `find -size <n>c` | Cherche des fichiers par taille exacte en bytes | ✅ |
+| `find / -user <u> -group <g> -size <n>c` | Cherche un fichier sur tout le serveur selon plusieurs critères | ✅ |
+| `2>/dev/null` | Redirige les erreurs (stderr) vers la poubelle | ✅ |
 | `*` (wildcard) | Remplace n'importe quelle suite de caractères | ✅ |
 | `mkdir <dossier>` | Crée un nouveau dossier | ✅ |
 | `touch <fichier>` | Crée un fichier vide | ✅ |
