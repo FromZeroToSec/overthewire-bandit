@@ -14,7 +14,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 04 | [📄 Voir](./lvl-04/README.md) | ✅ |
 | Level 05 | [📄 Voir](./lvl-05/README.md) | ✅ |
 | Level 06 | [📄 Voir](./lvl-06/README.md) | ✅ |
-| Level 07 | — | ⏳ |
+| Level 07 | [📄 Voir](./lvl-07/README.md) | ✅ |
+| Level 08 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -36,3 +37,5 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `*` (wildcard) | Remplace n'importe quelle suite de caractères | ✅ |
 | `mkdir <dossier>` | Crée un nouveau dossier | ✅ |
 | `touch <fichier>` | Crée un fichier vide | ✅ |
+| `grep <mot> <fichier>` | Recherche une chaîne de caractères dans un fichier | ✅ |
+| `du <fichier>` | Affiche la taille d'un fichier ou dossier | ✅ |
