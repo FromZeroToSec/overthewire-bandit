@@ -15,7 +15,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 05 | [📄 Voir](./lvl-05/README.md) | ✅ |
 | Level 06 | [📄 Voir](./lvl-06/README.md) | ✅ |
 | Level 07 | [📄 Voir](./lvl-07/README.md) | ✅ |
-| Level 08 | — | ⏳ |
+| Level 08 | [📄 Voir](./lvl-08/README.md) | ✅ |
+| Level 09 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -39,3 +40,7 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `touch <fichier>` | Crée un fichier vide | ✅ |
 | `grep <mot> <fichier>` | Recherche une chaîne de caractères dans un fichier | ✅ |
 | `du <fichier>` | Affiche la taille d'un fichier ou dossier | ✅ |
+| `sort <fichier>` | Trie les lignes d'un fichier par ordre alphabétique | ✅ |
+| `uniq -u` | Affiche uniquement les lignes qui n'apparaissent qu'une seule fois | ✅ |
+| `cmd1 \| cmd2` | Pipe : envoie la sortie d'une commande vers une autre | ✅ |
+| `<commande> --help` | Affiche la documentation d'une commande | ✅ |
