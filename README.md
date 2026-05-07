@@ -18,7 +18,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 08 | [📄 Voir](./lvl-08/README.md) | ✅ |
 | Level 09 | [📄 Voir](./lvl-09/README.md) | ✅ |
 | Level 10 | [📄 Voir](./lvl-10/README.md) | ✅ |
-| Level 11 | — | ⏳ |
+| Level 11 | [📄 Voir](./lvl-11/README.md) | ✅ |
+| Level 12 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -45,5 +46,6 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `du <fichier>` | Affiche la taille d'un fichier | ✅ |
 | `strings <fichier>` | Extrait les chaînes lisibles d'un fichier binaire | ✅ |
 | `base64 -d <fichier>` | Décode un fichier encodé en base64 | ✅ |
+| `tr 'CHAINE1' 'CHAINE2'` | Substitue les caractères de CHAINE1 par CHAINE2 | ✅ |
 | `mkdir <dossier>` | Crée un nouveau dossier | ✅ |
 | `touch <fichier>` | Crée un fichier vide | ✅ |
