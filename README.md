@@ -19,7 +19,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 09 | [📄 Voir](./lvl-09/README.md) | ✅ |
 | Level 10 | [📄 Voir](./lvl-10/README.md) | ✅ |
 | Level 11 | [📄 Voir](./lvl-11/README.md) | ✅ |
-| Level 12 | — | ⏳ |
+| Level 12 | [📄 Voir](./lvl-12/README.md) | ✅ |
+| Level 13 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -49,3 +50,10 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `tr 'CHAINE1' 'CHAINE2'` | Substitue les caractères de CHAINE1 par CHAINE2 | ✅ |
 | `mkdir <dossier>` | Crée un nouveau dossier | ✅ |
 | `touch <fichier>` | Crée un fichier vide | ✅ |
+| `mktemp -d` | Crée un dossier temporaire dans /tmp avec un nom aléatoire | ✅ |
+| `cp <source> <dest>` | Copie un fichier d'un endroit à un autre | ✅ |
+| `mv <ancien> <nouveau>` | Déplace ou renomme un fichier | ✅ |
+| `xxd -r <in> <out>` | Reconvertit un hexdump en fichier binaire | ✅ |
+| `gzip -d <fichier.gz>` | Décompresse un fichier gzip | ✅ |
+| `bzip2 -d <fichier.bz2>` | Décompresse un fichier bzip2 | ✅ |
+| `tar -xf <fichier.tar>` | Extrait le contenu d'une archive tar | ✅ |
