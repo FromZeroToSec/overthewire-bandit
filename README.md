@@ -20,13 +20,18 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 10 | [📄 Voir](./lvl-10/README.md) | ✅ |
 | Level 11 | [📄 Voir](./lvl-11/README.md) | ✅ |
 | Level 12 | [📄 Voir](./lvl-12/README.md) | ✅ |
-| Level 13 | — | ⏳ |
+| Level 13 | [📄 Voir](./lvl-13/README.md) | ✅ |
+| Level 14 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
 | Commande | Description | Maîtrisée |
 |----------|-------------|-----------|
 | `ssh user@host -p port` | Connexion distante sécurisée via SSH | ✅ |
+| `ssh -i <clé> user@host -p port` | Connexion SSH avec une clé privée | ✅ |
+| `chmod 600 <fichier>` | Restreint les permissions : lecture+écriture pour moi seul | ✅ |
+| `nano <fichier>` | Éditeur de texte en terminal | ✅ |
+| `cd -` | Retourne au répertoire précédent | ✅ |
 | `pwd` | Affiche le répertoire courant | ✅ |
 | `ls` | Liste les fichiers et dossiers | ✅ |
 | `ls -a` | Liste tous les fichiers, y compris les cachés | ✅ |
