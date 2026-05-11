@@ -21,7 +21,9 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 11 | [📄 Voir](./lvl-11/README.md) | ✅ |
 | Level 12 | [📄 Voir](./lvl-12/README.md) | ✅ |
 | Level 13 | [📄 Voir](./lvl-13/README.md) | ✅ |
-| Level 14 | — | ⏳ |
+| Level 14 | [📄 Voir](./lvl-14/README.md) | ✅ |
+| Level 15 | [📄 Voir](./lvl-15/README.md) | ✅ |
+| Level 16 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -62,3 +64,5 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `gzip -d <fichier.gz>` | Décompresse un fichier gzip | ✅ |
 | `bzip2 -d <fichier.bz2>` | Décompresse un fichier bzip2 | ✅ |
 | `tar -xf <fichier.tar>` | Extrait le contenu d'une archive tar | ✅ |
+| `nc <destination> <port>` | Envoie/reçoit des données sur le réseau via un port (Netcat) | ✅ |
+| `openssl s_client -connect <host>:<port>` | Se connecte à un service via une connexion chiffrée SSL/TLS | ✅ |
