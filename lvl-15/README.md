@@ -1,4 +1,4 @@
-# Bandit Level 15 → 16
+# Bandit Level 15 
 
 ## 🎯 Objectif
 
