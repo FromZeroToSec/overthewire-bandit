@@ -1,5 +1,4 @@
 # OverTheWire Bandit
-
 Mon parcours d'apprentissage Linux et cybersécurité
 à travers le wargame Bandit by OverTheWire.
 
@@ -23,7 +22,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 13 | [📄 Voir](./lvl-13/README.md) | ✅ |
 | Level 14 | [📄 Voir](./lvl-14/README.md) | ✅ |
 | Level 15 | [📄 Voir](./lvl-15/README.md) | ✅ |
-| Level 16 | — | ⏳ |
+| Level 16 | [📄 Voir](./lvl-16/README.md) | ✅ |
+| Level 17 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -66,3 +66,5 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `tar -xf <fichier.tar>` | Extrait le contenu d'une archive tar | ✅ |
 | `nc <destination> <port>` | Envoie/reçoit des données sur le réseau via un port (Netcat) | ✅ |
 | `openssl s_client -connect <host>:<port>` | Se connecte à un service via une connexion chiffrée SSL/TLS | ✅ |
+| `nmap -sV -p <plage> <cible>` | Scanne une plage de ports et détecte les services qui y tournent | ✅ |
+| `openssl s_client -connect <host>:<port> -quiet` | Connexion SSL/TLS silencieuse, évite le problème KEYUPDATE | ✅ |
