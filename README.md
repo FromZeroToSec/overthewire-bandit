@@ -1,21 +1,21 @@
-# OverTheWire Bandit
-Mon parcours d'apprentissage Linux et cybersécurité
-à travers le wargame Bandit by OverTheWire.
+# 🏴‍☠️ OverTheWire — Bandit
 
-## 📊 Progression
+Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames/bandit/) d'OverTheWire.
+
+## 📋 Progression
 
 | Niveau | Writeup | Statut |
 |--------|---------|--------|
-| Level 00 | [📄 Voir](./lvl-00/README.md) | ✅ |
-| Level 01 | [📄 Voir](./lvl-01/README.md) | ✅ |
-| Level 02 | [📄 Voir](./lvl-02/README.md) | ✅ |
-| Level 03 | [📄 Voir](./lvl-03/README.md) | ✅ |
-| Level 04 | [📄 Voir](./lvl-04/README.md) | ✅ |
-| Level 05 | [📄 Voir](./lvl-05/README.md) | ✅ |
-| Level 06 | [📄 Voir](./lvl-06/README.md) | ✅ |
-| Level 07 | [📄 Voir](./lvl-07/README.md) | ✅ |
-| Level 08 | [📄 Voir](./lvl-08/README.md) | ✅ |
-| Level 09 | [📄 Voir](./lvl-09/README.md) | ✅ |
+| Level 0 | [📄 Voir](./lvl-0/README.md) | ✅ |
+| Level 1 | [📄 Voir](./lvl-1/README.md) | ✅ |
+| Level 2 | [📄 Voir](./lvl-2/README.md) | ✅ |
+| Level 3 | [📄 Voir](./lvl-3/README.md) | ✅ |
+| Level 4 | [📄 Voir](./lvl-4/README.md) | ✅ |
+| Level 5 | [📄 Voir](./lvl-5/README.md) | ✅ |
+| Level 6 | [📄 Voir](./lvl-6/README.md) | ✅ |
+| Level 7 | [📄 Voir](./lvl-7/README.md) | ✅ |
+| Level 8 | [📄 Voir](./lvl-8/README.md) | ✅ |
+| Level 9 | [📄 Voir](./lvl-9/README.md) | ✅ |
 | Level 10 | [📄 Voir](./lvl-10/README.md) | ✅ |
 | Level 11 | [📄 Voir](./lvl-11/README.md) | ✅ |
 | Level 12 | [📄 Voir](./lvl-12/README.md) | ✅ |
@@ -23,17 +23,16 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | Level 14 | [📄 Voir](./lvl-14/README.md) | ✅ |
 | Level 15 | [📄 Voir](./lvl-15/README.md) | ✅ |
 | Level 16 | [📄 Voir](./lvl-16/README.md) | ✅ |
-| Level 17 | — | ⏳ |
+| Level 17 | [📄 Voir](./lvl-17/README.md) | ✅ |
+| Level 18 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
 | Commande | Description | Maîtrisée |
 |----------|-------------|-----------|
 | `ssh user@host -p port` | Connexion distante sécurisée via SSH | ✅ |
-| `ssh -i <clé> user@host -p port` | Connexion SSH avec une clé privée | ✅ |
+| `ssh user@host -i <clé> -p port` | Connexion SSH avec une clé privée | ✅ |
 | `chmod 600 <fichier>` | Restreint les permissions : lecture+écriture pour moi seul | ✅ |
-| `nano <fichier>` | Éditeur de texte en terminal | ✅ |
-| `cd -` | Retourne au répertoire précédent | ✅ |
 | `pwd` | Affiche le répertoire courant | ✅ |
 | `ls` | Liste les fichiers et dossiers | ✅ |
 | `ls -a` | Liste tous les fichiers, y compris les cachés | ✅ |
@@ -42,6 +41,7 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `cat ./<fichier>` | Lit un fichier dont le nom commence par `-` | ✅ |
 | `cd <dossier>` | Navigue dans un dossier | ✅ |
 | `cd ..` | Remonte d'un niveau dans l'arborescence | ✅ |
+| `cd -` | Retourne au répertoire précédent | ✅ |
 | `file <fichier>` | Identifie le type d'un fichier | ✅ |
 | `find -size <n>c` | Cherche des fichiers par taille exacte | ✅ |
 | `find / -user <u> -group <g> -size <n>c` | Cherche un fichier selon plusieurs critères | ✅ |
@@ -64,7 +64,8 @@ Mon parcours d'apprentissage Linux et cybersécurité
 | `gzip -d <fichier.gz>` | Décompresse un fichier gzip | ✅ |
 | `bzip2 -d <fichier.bz2>` | Décompresse un fichier bzip2 | ✅ |
 | `tar -xf <fichier.tar>` | Extrait le contenu d'une archive tar | ✅ |
+| `nano <fichier>` | Éditeur de texte en terminal | ✅ |
 | `nc <destination> <port>` | Envoie/reçoit des données sur le réseau via un port (Netcat) | ✅ |
-| `openssl s_client -connect <host>:<port>` | Se connecte à un service via une connexion chiffrée SSL/TLS | ✅ |
-| `nmap -sV -p <plage> <cible>` | Scanne une plage de ports et détecte les services qui y tournent | ✅ |
-| `openssl s_client -connect <host>:<port> -quiet` | Connexion SSL/TLS silencieuse, évite le problème KEYUPDATE | ✅ |
+| `openssl s_client -connect <host>:<port> -quiet` | Connexion SSL/TLS silencieuse | ✅ |
+| `nmap -p <plage> <host>` | Scanner de ports sur une plage donnée | ✅ |
+| `diff <fichier1> <fichier2>` | Compare deux fichiers et affiche les lignes différentes | ✅ |
