@@ -24,7 +24,8 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | Level 15 | [📄 Voir](./lvl-15/README.md) | ✅ |
 | Level 16 | [📄 Voir](./lvl-16/README.md) | ✅ |
 | Level 17 | [📄 Voir](./lvl-17/README.md) | ✅ |
-| Level 18 | — | ⏳ |
+| Level 18 | [📄 Voir](./lvl-18/README.md) | ✅ |
+| Level 19 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -32,6 +33,7 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 |----------|-------------|-----------|
 | `ssh user@host -p port` | Connexion distante sécurisée via SSH | ✅ |
 | `ssh user@host -i <clé> -p port` | Connexion SSH avec une clé privée | ✅ |
+| `ssh user@host -p port <commande>` | Exécute une commande via SSH sans ouvrir de shell interactif | ✅ |
 | `chmod 600 <fichier>` | Restreint les permissions : lecture+écriture pour moi seul | ✅ |
 | `pwd` | Affiche le répertoire courant | ✅ |
 | `ls` | Liste les fichiers et dossiers | ✅ |
