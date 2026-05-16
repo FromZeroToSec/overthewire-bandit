@@ -25,7 +25,8 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | Level 16 | [📄 Voir](./lvl-16/README.md) | ✅ |
 | Level 17 | [📄 Voir](./lvl-17/README.md) | ✅ |
 | Level 18 | [📄 Voir](./lvl-18/README.md) | ✅ |
-| Level 19 | — | ⏳ |
+| Level 19 | [📄 Voir](./lvl-19/README.md) | ✅ |
+| Level 20 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -71,3 +72,5 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | `openssl s_client -connect <host>:<port> -quiet` | Connexion SSL/TLS silencieuse | ✅ |
 | `nmap -p <plage> <host>` | Scanner de ports sur une plage donnée | ✅ |
 | `diff <fichier1> <fichier2>` | Compare deux fichiers et affiche les lignes différentes | ✅ |
+| `whoami` | Affiche l'utilisateur courant | ✅ |
+| `./<binaire> <commande>` | Exécute une commande via un binaire setuid (droits empruntés) | ✅ |
