@@ -26,7 +26,8 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | Level 17 | [📄 Voir](./lvl-17/README.md) | ✅ |
 | Level 18 | [📄 Voir](./lvl-18/README.md) | ✅ |
 | Level 19 | [📄 Voir](./lvl-19/README.md) | ✅ |
-| Level 20 | — | ⏳ |
+| Level 20 | [📄 Voir](./lvl-20/README.md) | ✅ |
+| Level 21 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -69,6 +70,10 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | `tar -xf <fichier.tar>` | Extrait le contenu d'une archive tar | ✅ |
 | `nano <fichier>` | Éditeur de texte en terminal | ✅ |
 | `nc <destination> <port>` | Envoie/reçoit des données sur le réseau via un port (Netcat) | ✅ |
+| `nc -lp <port>` | Écoute sur un port TCP en mode serveur | ✅ |
+| `echo "texte" \| nc -lp <port> &` | Lance nc en arrière-plan et envoie un message automatiquement | ✅ |
+| `kill %<job>` | Tue un processus en arrière-plan par son numéro de job | ✅ |
+| `<commande> &` | Lance un processus en arrière-plan | ✅ |
 | `openssl s_client -connect <host>:<port> -quiet` | Connexion SSL/TLS silencieuse | ✅ |
 | `nmap -p <plage> <host>` | Scanner de ports sur une plage donnée | ✅ |
 | `diff <fichier1> <fichier2>` | Compare deux fichiers et affiche les lignes différentes | ✅ |
