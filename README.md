@@ -27,7 +27,8 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | Level 18 | [📄 Voir](./lvl-18/README.md) | ✅ |
 | Level 19 | [📄 Voir](./lvl-19/README.md) | ✅ |
 | Level 20 | [📄 Voir](./lvl-20/README.md) | ✅ |
-| Level 21 | — | ⏳ |
+| Level 21 | [📄 Voir](./lvl-21/README.md) | ✅ |
+| Level 22 | — | ⏳ |
 
 ## 🔧 Commandes apprises
 
@@ -79,3 +80,7 @@ Progression personnelle sur le wargame [Bandit](https://overthewire.org/wargames
 | `diff <fichier1> <fichier2>` | Compare deux fichiers et affiche les lignes différentes | ✅ |
 | `whoami` | Affiche l'utilisateur courant | ✅ |
 | `./<binaire> <commande>` | Exécute une commande via un binaire setuid (droits empruntés) | ✅ |
+| `cd /etc/cron.d/` | Navigue dans le dossier des tâches cron | ✅ |
+| `cat /usr/bin/<script>.sh` | Lit le contenu d'un script shell | ✅ |
+| `* * * * * user <cmd>` | Syntaxe cron : exécute une commande toutes les minutes | ✅ |
+| `cmd > <fichier>` | Redirige la sortie d'une commande vers un fichier | ✅ |
